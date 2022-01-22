@@ -125,30 +125,6 @@ form {
     max-height: 42px;
 }
 
-@media (min-width: 576px) {
-    h1 {
-        color: #d09d29;
-    }
-    h2 {
-        color: #d09d29;
-    }
-    .biocontainer {
-        border: #d09d29;
-    }
-}
-
-@media (min-width: 768px) {
-    h1 {
-        color: #9fa059;
-    }
-    h2 {
-        color: #9fa059;
-    }
-    .biocontainer {
-        border: #9fa059;
-    }
-}
-
 @media (min-width: 992px) {
     h1 {
         color: #89aa4f;
@@ -157,7 +133,7 @@ form {
         color: #89aa4f;
     }
     .biocontainer {
-        border: #89aa4f;
+        border: 5px solid #89aa4f;
     }
 }
 
@@ -169,7 +145,7 @@ form {
         color: #3b4921;
     }
     .biocontainer {
-        border: #3b4921;
+        border: 5px solid #3b4921;
     }
 }
 
@@ -181,6 +157,6 @@ form {
         color: #2b2b1b;
     }
     .biocontainer {
-        border: #2b2b1b;
+        border: 5px solid #2b2b1b;
     }
 }
