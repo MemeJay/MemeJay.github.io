@@ -16,14 +16,14 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;;
+    font-size: 3rem;
+    line-height: 3rem;;
     color: #0a5c37;
 }
 
 h2 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 4rem;
+    line-height: 4rem;
     color: #0a5c37;
 }
 
@@ -31,6 +31,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    text-align: center;
 }
 
 a {
@@ -60,9 +61,9 @@ div {
     flex-direction: column;
 }
 
-img {
-    max-width: 300px;
-    height: 100%;
+.profile-pic {
+    max-width: 20em;
+    max-height: 23em;
     object-position: left;
 }
 
@@ -117,4 +118,69 @@ form {
 
 .form-item button {
     width: 100px;
+}
+
+.icons {
+    max-width: 42px;
+    max-height: 42px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        color: #d09d29;
+    }
+    h2 {
+        color: #d09d29;
+    }
+    .biocontainer {
+        border: #d09d29;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        color: #9fa059;
+    }
+    h2 {
+        color: #9fa059;
+    }
+    .biocontainer {
+        border: #9fa059;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        color: #89aa4f;
+    }
+    h2 {
+        color: #89aa4f;
+    }
+    .biocontainer {
+        border: #89aa4f;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        color: #3b4921;
+    }
+    h2 {
+        color: #3b4921;
+    }
+    .biocontainer {
+        border: #3b4921;
+    }
+}
+
+@media (min-width: 1400px) {
+    h1 {
+        color: #2b2b1b;
+    }
+    h2 {
+        color: #2b2b1b;
+    }
+    .biocontainer {
+        border: #2b2b1b;
+    }
 }
